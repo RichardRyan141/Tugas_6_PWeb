@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 5rem;
+  text-transform: uppercase;
+  font-family: 'Passion One';
+  font-weight: 400;
+  letter-spacing: 2px;
+  line-height: 0.8;
+}
+
+body {
+  font-family: 'Roboto Slab';
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+div.input-box {
+  display: flex;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+div.input-box label {
+  display: inline-block;
+  margin: 10px 10px 10px 0;
+  width: 20%;
+}
+
+div.input-box input {
+  font-size: 1.5rem;
+  border: 1px solid #ccc;
+  padding: 4px 8px;
+  flex: 1;
+}
+
+input.button {
+  font-size: 1.5rem;
+  background: black;
+  color: white;
+  border: 1px solid black;
+  margin: 10px;
+  padding: 4px 40px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+input.button:hover {
+  background: grey;
+}
+
+div.input-box input.error {
+  border: 2px dashed red;
+  background: #fee;
+}
+
+div.input-box label.error {
+  color: red;
+  font-size: 1rem;
+  text-align: right;
+  width: 100%;
+  margin: 10px 0;
+}
